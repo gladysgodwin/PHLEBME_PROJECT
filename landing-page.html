@@ -5,53 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./STYLES/styles.css" />
+    <script src="/home.js" defer></script>
     <title>PHLEBME WEBSITE</title>
   </head>
   <body>
-    <main class="web">
-      <div class="barr">
-        <div class="my-bar">
-          <img src="phelbme logo.png" class="logo" />
-          <nav class="nav-items">
-            <ul class="nav-bar">
-              <li><a href="landing-page.html">Home</a></li>
-              <li><a href="About.html">About</a></li>
-              <li><a href="Services.html">Services</a></li>
-              <li><a href="Contact.html">Contact</a></li>
-              <li><a href="signup.html">Sign Up</a></li>
-              <li>
-                <button><a href="Login.html">Log in</a></button>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="bow">
-          <p><marquee>Best Phlebotomy Service Providers in Africa</marquee></p>
-        </div>
-        <section class="box">
-          <div class="box-1">
-            <p>
-              <b
-                >We care about your health and <br />
-                most importantly your comfort</b
-              >
-            </p>
-          </div>
-          <div class="box-2">
-            <p>
-              <b
-                >We serve as a link between you<br />
-                your doctor and your diagnosis</b
-              >
-            </p>
-          </div>
-          <div class="box-3">
-            <p><b>We make the process faster</b></p>
-          </div>
-        </section>
+    <header class="header">
+      <img src="/images/phelbme logo.png" class="image" width="100"></a>
+      <div class="menu-btn">
+        <div class="menu-btn-lines"></div>
       </div>
-      <!-- <div><img src="object.jpg" class="img" /></div> -->
-      
+      <ul class="menu-items">
+        <li><a class="menu-items" href="landing-page.html">Home</a> </li>
+        <li><a class="menu-items" href="About.html">About</a></li>
+        <li><a class="menu-items" href="Services.html">Services</a></li>
+        <li><a class="menu-items" href="Contact.html">Contact</a></li>
+        <li><a class="menu-items" href="signup.html">Sign Up</a></li>
+        <li><a class="menu-items" href="Login.html">Log in</a></li>
+    </ul>
+  </header>
+    <main>
+      <section id="section-one">
+        <div id="myCarousel" class="slider">
+          <div class="myslider fade" style="display:block;">
+            <div class="txt">
+              <!-- <h1>PHLEBME</h1>
+              <p>Your health our piority</p> -->
+              <img src="/images/mok6.jpg" style="width:100%; height:100%; display:block;"alt="phlebme office look">
+            </div>
+            <div class="txt">
+              <!-- <h1>Looking for quality healthcare?</h1>
+              <p>Say no more <br> We got you</p> -->
+              <img src="/images/phlebot.jpg" style="width:100%; height:100%; display:block;"alt="A photo showing phlebotomy proceduce done on a patient">
+            </div>
+            <div class="txt">
+              <!-- <h1>Get quality Healthcare</h1>
+              <p>With our Experienced healthcare professionals</p> -->
+              <img src="/images/patient and nurse.jpg" style="width:100%; height:100%; display:block;" alt="Photo showing a nurse checking patient's blood pressure">
+            </div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+  
+        <div class="dotsbox" style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+       <section class="section about-section">
+        <div class="about-section-set">
+          <h1>Learn more about us here</h1>
+          </div>
+          <div class="about-section-set btn-link">
+          <br> <button class="Sat" onclick="location.href='About.html'">Start a tour</button>
+          </div>
+        </div>
+      </section>
+
     </main>
+        
   </body>
 </html>
